@@ -16,4 +16,16 @@ public class BeanDto {
     private String beanName;
     private String beanData;
 
+    //Başlangıç
+    public void initialBeanMethod(){
+        log.info("Bean başlamadan önce ben varım ");
+        System.out.println("Bean başlamadan önce çalışacak method");
+    }
+//Bitiş
+//Başlangıç
+public void destroyBeanMethod(){
+    log.info("Bean bittikten sonra ben varım ");
+    System.err.println("Bean bittikten sorna çalışacak method");
+}
+//Bitiş
 }

@@ -9339,3 +9339,75 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 2023-08-14 14:53:02.248  INFO 9880 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-08-14 14:53:02.254  INFO 9880 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2023-08-14 14:53:02.258  INFO 9880 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-08-14 15:05:04.556  INFO 6692 --- [restartedMain] c.m.PatikaDevSpringBootApplication       : Starting PatikaDevSpringBootApplication using Java 17.0.8 on MDK with PID 6692 (C:\JAVAPROJELER\patikaDevSpringBoot\target\classes started by PC in C:\JAVAPROJELER\patikaDevSpringBoot)
+2023-08-14 15:05:04.558  INFO 6692 --- [restartedMain] c.m.PatikaDevSpringBootApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-08-14 15:05:04.611  INFO 6692 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-14 15:05:04.612  INFO 6692 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-14 15:05:05.824  INFO 6692 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-08-14 15:05:05.828  INFO 6692 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-14 15:05:05.840  INFO 6692 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2023-08-14 15:05:05.848  INFO 6692 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-08-14 15:05:05.850  INFO 6692 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-14 15:05:05.856  INFO 6692 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2023-08-14 15:05:06.542  INFO 6692 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-08-14 15:05:06.553  INFO 6692 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-14 15:05:06.553  INFO 6692 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2023-08-14 15:05:06.653  INFO 6692 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-14 15:05:06.654  INFO 6692 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2042 ms
+2023-08-14 15:05:06.784  INFO 6692 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-08-14 15:05:07.011  INFO 6692 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-08-14 15:05:07.019  INFO 6692 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/denemedb'
+2023-08-14 15:05:07.165  INFO 6692 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-14 15:05:07.239  INFO 6692 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2023-08-14 15:05:07.450  INFO 6692 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-08-14 15:05:07.579  INFO 6692 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-08-14 15:05:07.869  INFO 6692 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-14 15:05:07.881  INFO 6692 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-14 15:05:07.905  INFO 6692 --- [restartedMain] com.mehmetdurankaya.dto.BeanDto          : Bean başlamadan önce ben varım 
+2023-08-14 15:05:08.017  WARN 6692 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-14 15:05:08.603  WARN 6692 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2023-08-14 15:05:09.038  INFO 6692 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-14 15:05:09.043  INFO 6692 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-14 15:05:09.110  INFO 6692 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-14 15:05:09.127  INFO 6692 --- [restartedMain] c.m.PatikaDevSpringBootApplication       : Started PatikaDevSpringBootApplication in 4.961 seconds (JVM running for 6.228)
+2023-08-14 15:05:09.680  INFO 6692 --- [RMI TCP Connection(2)-192.168.8.176] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-14 15:05:09.681  INFO 6692 --- [RMI TCP Connection(2)-192.168.8.176] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-14 15:05:09.682  INFO 6692 --- [RMI TCP Connection(2)-192.168.8.176] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-08-14 15:23:15.691  INFO 6692 --- [SpringApplicationShutdownHook] com.mehmetdurankaya.dto.BeanDto          : Bean bittikten sonra ben varım 
+2023-08-14 15:23:15.692  INFO 6692 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-14 15:23:15.700  INFO 6692 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-08-14 15:23:15.705  INFO 6692 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-08-14 20:22:13.603  INFO 8152 --- [restartedMain] c.m.PatikaDevSpringBootApplication       : Starting PatikaDevSpringBootApplication using Java 17.0.8 on MDK with PID 8152 (C:\JAVAPROJELER\patikaDevSpringBoot\target\classes started by PC in C:\JAVAPROJELER\patikaDevSpringBoot)
+2023-08-14 20:22:13.605  INFO 8152 --- [restartedMain] c.m.PatikaDevSpringBootApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-08-14 20:22:13.652  INFO 8152 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-14 20:22:13.652  INFO 8152 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-14 20:22:14.808  INFO 8152 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-08-14 20:22:14.810  INFO 8152 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-14 20:22:14.822  INFO 8152 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2023-08-14 20:22:14.829  INFO 8152 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-08-14 20:22:14.831  INFO 8152 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-14 20:22:14.837  INFO 8152 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2023-08-14 20:22:15.408  INFO 8152 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-08-14 20:22:15.419  INFO 8152 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-14 20:22:15.419  INFO 8152 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2023-08-14 20:22:15.503  INFO 8152 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-14 20:22:15.504  INFO 8152 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1851 ms
+2023-08-14 20:22:15.606  INFO 8152 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-08-14 20:22:15.821  INFO 8152 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-08-14 20:22:15.829  INFO 8152 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/denemedb'
+2023-08-14 20:22:15.951  INFO 8152 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-14 20:22:16.018  INFO 8152 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2023-08-14 20:22:16.200  INFO 8152 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-08-14 20:22:16.325  INFO 8152 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-08-14 20:22:16.576  INFO 8152 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-14 20:22:16.584  INFO 8152 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-14 20:22:16.604  INFO 8152 --- [restartedMain] com.mehmetdurankaya.dto.BeanDto          : Bean başlamadan önce ben varım 
+2023-08-14 20:22:16.696  WARN 8152 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-14 20:22:17.225  WARN 8152 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2023-08-14 20:22:17.620  INFO 8152 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-14 20:22:17.625  INFO 8152 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-14 20:22:17.688  INFO 8152 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-14 20:22:17.703  INFO 8152 --- [restartedMain] c.m.PatikaDevSpringBootApplication       : Started PatikaDevSpringBootApplication in 4.476 seconds (JVM running for 5.282)
+2023-08-14 20:22:18.147  INFO 8152 --- [RMI TCP Connection(2)-192.168.8.176] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-14 20:22:18.147  INFO 8152 --- [RMI TCP Connection(2)-192.168.8.176] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-14 20:22:18.148  INFO 8152 --- [RMI TCP Connection(2)-192.168.8.176] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
