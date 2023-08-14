@@ -13,7 +13,7 @@
 
     <!-- project information-->
     <groupId>com.hamitmizrak</groupId>
-    <artifactId>KodluyoruzSpringBoot</artifactId>
+    <artifactId>patikaDevSpringBoot</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>kodluyoruz</name>
     <description>kodluyoruz</description>
@@ -109,12 +109,12 @@
             <scope>runtime</scope>
         </dependency>
 
-        <!--Mysql-->
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <scope>runtime</scope>
-        </dependency>
+<!--        &lt;!&ndash;Mysql&ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>mysql</groupId>-->
+<!--            <artifactId>mysql-connector-java</artifactId>-->
+<!--            <scope>runtime</scope>-->
+<!--        </dependency>-->
 
         <!--mssql-->
         <!--  <dependency>
