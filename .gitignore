@@ -1,5 +1,6 @@
 ### special commit
 .log/
+/meory_persist/
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
